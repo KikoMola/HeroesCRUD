@@ -124,5 +124,8 @@
       }
     }
   },
-  "defaultProject": "heroesApp"
+  "defaultProject": "heroesApp",
+  "cli": {
+    "analytics": "9185ffac-2341-45fd-a4f4-a628946f4497"
+  }
 }
