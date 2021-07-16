@@ -13,6 +13,7 @@ import { HomeComponent } from './pages/home/home.component';
 import { ListadoComponent } from './pages/listado/listado.component';
 import { HeroeTarjetaComponent } from './components/heroe-tarjeta/heroe-tarjeta.component';
 import { ImagenPipe } from './pipes/imagen.pipe';
+import { ConfirmarComponent } from './components/confirmar/confirmar.component';
 
 
 
@@ -20,7 +21,7 @@ import { ImagenPipe } from './pipes/imagen.pipe';
 
 @NgModule({
     declarations: [
-        AgregarComponent, BuscarComponent, HeroeComponent, HomeComponent, ListadoComponent, HeroeTarjetaComponent, ImagenPipe
+        AgregarComponent, BuscarComponent, HeroeComponent, HomeComponent, ListadoComponent, HeroeTarjetaComponent, ImagenPipe, ConfirmarComponent
     ],
     imports: [
         CommonModule, HeroesRoutingModule, FlexLayoutModule, MaterialModule, FormsModule
