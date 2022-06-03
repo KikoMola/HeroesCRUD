@@ -6,6 +6,21 @@ import { AuthService } from '../../services/auth.service';
     selector: 'app-login',
     templateUrl: './login.component.html',
     styles: [
+        `
+        .container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 100%;
+            height: 100%;
+        }
+
+        button {
+            width: 300px;
+            height: 90px;
+            font-size: 1.875rem;
+        }
+        `
     ]
 })
 export class LoginComponent {
