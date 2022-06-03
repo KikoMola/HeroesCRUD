@@ -1,27 +1,35 @@
-# HeroesApp
+# [ES] Heroes CRUD
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.0.4.
+Se trata de una aplicación desarrollada usando el framework de Google **Angular**, en su versión 11, pero es compatible con todas las versiones
+desde Angular 2 hasta la actualidad.
 
-## Development server
+## Cómo funciona la aplicación
+Para hacer funcionar la aplicación, lo primero que hace falta es descargar el proyecto que contiene la base de datos en formato **JSON**, se puede descargar desde aquí.
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+Una vez descargado el fichero .zip o clonado el proyecto, hay que abrir la consola de comandos e instalar JSON-Server con el siguiente comando.
+```
+npm install -g json-server
+```
+Después, dentro del directorio raíz del proyecto, hay que introducir el siguiente comando en la terminal:
+```
+json-server --watch db.json
+```
 
-## Code scaffolding
+Y con esto, se abrirá un servidor local que aloja la base de datos, a la que se le podrán hacer peticiones. Los endpoints de dicho servidor son los siguientes:
+```
+http://localhost:3000/usuarios
+http://localhost:3000/heroes
+```
+Ahora ya se puede utilizar la aplicación, tanto en modo en línea como en modo local.
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+## Modo en línea
+Simplemente hay que ir a este link, y probar todas sus funcionalidades.
 
-## Build
+## Modo local
+Para probar la aplicación en modo local, lo que hay que hacer es descargar o clonar el proyecto en cualquier directorio y, una vez dentro de él, introducir los siguientes comandos en la terminal.
+```
+npm install
+ng serve -o
+```
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+Una vez hecho esto, la aplicación se abrirá tan pronto como esté disponible y ya se podrá probar.
