@@ -33,3 +33,5 @@ ng serve -o
 ```
 
 Una vez hecho esto, la aplicación se abrirá tan pronto como esté disponible y ya se podrá probar.
+
+# [EN] Heroes CRUD
