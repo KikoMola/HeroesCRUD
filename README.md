@@ -35,3 +35,4 @@ ng serve -o
 Una vez hecho esto, la aplicación se abrirá tan pronto como esté disponible y ya se podrá probar.
 
 # [EN] Heroes CRUD
+This is an application developed using the Google Angular framework, version 11, but it is compatible with all versions from Angular 2 to the present.
